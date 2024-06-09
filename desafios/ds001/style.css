@@ -1,0 +1,111 @@
+@font-face {
+  font-family:idroid ;
+  src: url(fontes/idroid.otf);
+}
+@counter-style emoji{
+  system:cyclic;
+  symbols: "\10003";
+  suffix:"";
+}
+body{
+   margin: 0px;
+   background-color: #84e1ad;
+}
+ 
+ header{
+    background-image: linear-gradient(to bottom, #39ce7c, #1d643c ) ; 
+    display: block;
+ }
+
+ header h1{
+  padding-top: 15px;
+ }
+
+ .titulo{
+   margin-top: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   color: white;
+ }
+
+nav li{
+   color: white;
+   list-style: none;
+   display: inline;
+   margin: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+ }
+ nav ul{
+  padding: 0%;
+  padding-left: 5px;
+  margin-bottom: 0px ;
+ }
+ 
+ nav a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ p{
+  font-family: Arial, Helvetica, sans-serif;
+ text-align: justify;
+ text-indent: 20px;
+ }
+ 
+ .corpo{
+  background-color: white;
+  width: 1050px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .corpo h1,h2{
+  font-family: idroid;
+  color:#1c5d39 ;
+ }
+
+ .corpo h1{
+  font-size: 25px;
+ }
+
+ img{
+  width: 1050px;
+ }
+
+ .humano-icon{
+height: 500px;
+width: 500px;
+ }
+
+ .humano{
+  height: 400px;
+  width: 450px;
+  margin-left: 300px;
+ }
+
+ .video{
+  text-align: center;
+  background-color: #1a5c38;
+  padding: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+ }
+
+.menu h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+background-color: #2fa866;
+padding: 10px;
+}
+
+.ul{
+ list-style-type: emoji;
+
+
+.li{
+
+}
+

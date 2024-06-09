@@ -1,0 +1,25 @@
+
+body{
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+
+/* medidas absolutas
+cm, mm, in, px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+16px equivale a 1em
+*/
+
+}
+
+p{
+font-family:'Courier New', Courier, monospace;
+font-size: 1em;
+font-style:italic;
+font-weight: bold;
+text-decoration: underline;
+/* shorthand font
+-font-style --> font-weight --> font-soze --> font-family
+ex:font: italic bold 1em courier; */
